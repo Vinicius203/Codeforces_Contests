@@ -15,7 +15,8 @@ def distinctSplit(string, tam):
         comparison = len(string1_unica) + len(string2_unica)
         if comparison > max:
             max = comparison
-
+            if max == tam:
+                return print(tam)
     print(max)
 
 
